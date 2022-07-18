@@ -1,5 +1,39 @@
 {
   "nodes": {
+    "concur": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1658186459,
+        "narHash": "sha256-TIPZcokQhVNaoP1gX92HWkw/eA7qmkE9xrNSe+ZeUl8=",
+        "owner": "wavewave",
+        "repo": "concur",
+        "rev": "deafda4e8b91bb02dc0cee63e52b28f35e1c698f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wavewave",
+        "ref": "ghc-9.2",
+        "repo": "concur",
+        "type": "github"
+      }
+    },
+    "concur-replica": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1603057542,
+        "narHash": "sha256-G/z7f2DF8M6a1FwGMtjQw5fLpJygje0riOBrAjozJdw=",
+        "owner": "wavewave",
+        "repo": "concur-replica",
+        "rev": "e15785b3b09e97790ae23c8ae8671c191d039a2c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "wavewave",
+        "ref": "ghc-9.2",
+        "repo": "concur-replica",
+        "type": "github"
+      }
+    },
     "flake-utils": {
       "locked": {
         "lastModified": 1656928814,
@@ -31,10 +65,26 @@
         "type": "github"
       }
     },
+    "replica": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1658187149,
+        "narHash": "sha256-jIhUebp4xFNc3mMI1xY+9/2iNP8DyPKMygYhIfAxSVY=",
+        "path": "/Users/ianwookim/repo/srcc/replica",
+        "type": "path"
+      },
+      "original": {
+        "path": "/Users/ianwookim/repo/srcc/replica",
+        "type": "path"
+      }
+    },
     "root": {
       "inputs": {
+        "concur": "concur",
+        "concur-replica": "concur-replica",
         "flake-utils": "flake-utils",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "replica": "replica"
       }
     }
   },
