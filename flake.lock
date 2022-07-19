@@ -3,11 +3,11 @@
     "concur": {
       "flake": false,
       "locked": {
-        "lastModified": 1658186459,
-        "narHash": "sha256-TIPZcokQhVNaoP1gX92HWkw/eA7qmkE9xrNSe+ZeUl8=",
+        "lastModified": 1658195376,
+        "narHash": "sha256-sMo4i3x821XAlbLpzM3yjVnPSt7EGRaSb5dnCRyVEsg=",
         "owner": "wavewave",
         "repo": "concur",
-        "rev": "deafda4e8b91bb02dc0cee63e52b28f35e1c698f",
+        "rev": "7718678e6e4907fb53bfd9248eda8fc175626f05",
         "type": "github"
       },
       "original": {
@@ -68,14 +68,18 @@
     "replica": {
       "flake": false,
       "locked": {
-        "lastModified": 1658187149,
-        "narHash": "sha256-jIhUebp4xFNc3mMI1xY+9/2iNP8DyPKMygYhIfAxSVY=",
-        "path": "/Users/ianwookim/repo/srcc/replica",
-        "type": "path"
+        "lastModified": 1658195753,
+        "narHash": "sha256-hD65yVXN3pl1e/FmUfqKJeJbOrh/q7MNwY3HPw5WNoU=",
+        "owner": "wavewave",
+        "repo": "replica",
+        "rev": "a222c76b9e16ee78d784f553bb3d511027272b1f",
+        "type": "github"
       },
       "original": {
-        "path": "/Users/ianwookim/repo/srcc/replica",
-        "type": "path"
+        "owner": "wavewave",
+        "ref": "ghc-9.2",
+        "repo": "replica",
+        "type": "github"
       }
     },
     "root": {

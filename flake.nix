@@ -12,8 +12,7 @@
       flake = false;
     };
     replica = {
-      #url = "github:pkamenarsky/replica/master";
-      url = "/Users/ianwookim/repo/srcc/replica";
+      url = "github:wavewave/replica/ghc-9.2";
       flake = false;
     };
   };
@@ -38,7 +37,7 @@
           p.aeson
           p.cabal-install
           p.concur-core
-          #p.concur-replica
+          p.concur-replica
           p.hpack
           p.optparse-applicative
           p.replica
